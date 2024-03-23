@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fweather-logos&psig=AOvVaw0HkDPPgmoLDqwEW0IWSzc7&ust=1711192876522000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjT6q3gh4UDFQAAAAAdAAAAABAE "
+          type="image/x-icon">
+    <link  rel="stylesheet" href="/css/styles.css">
+    
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get your Weather</p>
+
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+    
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
